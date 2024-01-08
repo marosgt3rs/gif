@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+
+.memeposter{
+    background-color: black;
+    border: 5px solid white;
+    width: 310px;            /* Width to match the GIF's width */
+    height: 552px;           /* Fixed height to match the GIF's height */
+    margin-top: 100px;
+    position: absolute;      /* Set the position to absolute */
+    top: 25%;                /* Place the top edge at 50% */
+    left: 75%;               /* Place the left edge at 50% */
+    transform: translate(-50%, -50%); /* Adjust position to center the div */
+    background-image: url('path_to_your_gif.gif'); /* Replace 'path_to_your_gif.gif' with your actual GIF path */
+    background-size: cover;  /* Cover ensures the image covers the div entirely */
+    background-position: center; /* Center the image within the div */
+    
+
+
+}
+
+.memetext{
+    color: white;
+    font-family: Libre Baskerville;
+    font-size: 6em;
+    text-align: right;
+    margin-right: 50%;
+    margin-top: 50px;
+}
+
+/* .pf{
+    color: white;
+    font: Libre Baskerville;
+    font-size: 8em;
+    text-align: right;
+    margin-right: 50%;
+    margin-top: 10%;
+} */
